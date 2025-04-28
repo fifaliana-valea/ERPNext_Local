@@ -55,3 +55,15 @@
 2025-04-28 13:29:16,212 INFO /home/valea/.local/bin/bench serve --port 8000
 2025-04-28 13:29:16,214 INFO /home/valea/.local/bin/bench schedule
 2025-04-28 13:29:16,232 INFO /home/valea/.local/bin/bench watch
+2025-04-28 13:40:39,399 INFO /home/valea/.local/bin/bench start
+2025-04-28 13:40:39,610 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 13:40:39,612 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 13:40:39,635 INFO /home/valea/.local/bin/bench watch
+2025-04-28 13:40:39,644 INFO /home/valea/.local/bin/bench worker
+2025-04-28 13:41:37,245 INFO /home/valea/.local/bin/bench --site erpnext.localhost set-config developer_mode 1
+2025-04-28 13:42:12,265 INFO /home/valea/.local/bin/bench --site erpnext.localhost clear-cache
+2025-04-28 13:42:17,698 INFO /home/valea/.local/bin/bench start
+2025-04-28 13:42:17,900 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 13:42:17,904 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 13:42:17,909 INFO /home/valea/.local/bin/bench worker
+2025-04-28 13:42:17,947 INFO /home/valea/.local/bin/bench watch
