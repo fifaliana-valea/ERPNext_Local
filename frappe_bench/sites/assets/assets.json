@@ -31,5 +31,14 @@
     "print_format.bundle.css": "/assets/frappe/dist/css/print_format.bundle.W4BIE72P.css",
     "report.bundle.css": "/assets/frappe/dist/css/report.bundle.AJCJ5SG5.css",
     "web_form.bundle.css": "/assets/frappe/dist/css/web_form.bundle.2ABI6KRO.css",
-    "website.bundle.css": "/assets/frappe/dist/css/website.bundle.7WEKXQPB.css"
+    "website.bundle.css": "/assets/frappe/dist/css/website.bundle.7WEKXQPB.css",
+    "bank-reconciliation-tool.bundle.js": "/assets/erpnext/dist/js/bank-reconciliation-tool.bundle.FPQRAOXF.js",
+    "erpnext-web.bundle.js": "/assets/erpnext/dist/js/erpnext-web.bundle.J4A2DQB4.js",
+    "erpnext.bundle.js": "/assets/erpnext/dist/js/erpnext.bundle.6NL6IWBU.js",
+    "item-dashboard.bundle.js": "/assets/erpnext/dist/js/item-dashboard.bundle.FTK6DUDO.js",
+    "point-of-sale.bundle.js": "/assets/erpnext/dist/js/point-of-sale.bundle.BA7TZAGR.js",
+    "bom_configurator.bundle.js": "/assets/erpnext/dist/js/bom_configurator.bundle.HVCV6OL2.js",
+    "erpnext-web.bundle.css": "/assets/erpnext/dist/css/erpnext-web.bundle.PZFV4EQD.css",
+    "erpnext.bundle.css": "/assets/erpnext/dist/css/erpnext.bundle.GQUFH52H.css",
+    "erpnext_email.bundle.css": "/assets/erpnext/dist/css/erpnext_email.bundle.WWRGX4IV.css"
 }
