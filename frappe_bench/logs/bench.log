@@ -11,3 +11,42 @@
 2025-04-28 10:58:26,132 LOG setting up backups
 2025-04-28 10:58:26,140 LOG backups were set up
 2025-04-28 10:58:26,140 INFO Bench frappe_bench initialized
+2025-04-28 11:57:13,133 INFO /home/valea/.local/bin/bench start
+2025-04-28 11:58:41,648 INFO /home/valea/.local/bin/bench start
+2025-04-28 11:58:41,851 INFO /home/valea/.local/bin/bench watch
+2025-04-28 11:58:41,858 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 11:58:41,885 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 11:58:41,885 INFO /home/valea/.local/bin/bench worker
+2025-04-28 12:00:01,332 INFO /home/valea/.local/bin/bench --verbose --site all backup
+2025-04-28 12:04:22,662 INFO /home/valea/.local/bin/bench new-site erpnext.localhost
+2025-04-28 12:04:59,420 INFO /home/valea/.local/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-28 12:04:59,427 LOG Getting erpnext
+2025-04-28 12:04:59,427 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-28 12:08:16,064 LOG Installing erpnext
+2025-04-28 12:08:16,065 DEBUG cd /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench && /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/apps/erpnext 
+2025-04-28 12:08:34,908 DEBUG cd /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/apps/erpnext && yarn install --check-files
+2025-04-28 12:08:35,240 DEBUG bench build --app erpnext
+2025-04-28 12:08:35,356 INFO /home/valea/.local/bin/bench build --app erpnext
+2025-04-28 12:15:47,064 INFO /home/valea/.local/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-28 12:16:36,594 INFO /home/valea/.local/bin/bench start
+2025-04-28 12:16:36,799 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 12:16:36,801 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 12:16:36,804 INFO /home/valea/.local/bin/bench watch
+2025-04-28 12:16:36,804 INFO /home/valea/.local/bin/bench worker
+2025-04-28 12:17:08,675 INFO /home/valea/.local/bin/bench start
+2025-04-28 12:17:08,881 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 12:17:08,892 INFO /home/valea/.local/bin/bench worker
+2025-04-28 12:17:08,892 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 12:17:08,904 INFO /home/valea/.local/bin/bench watch
+2025-04-28 12:17:59,552 INFO /home/valea/.local/bin/bench start
+2025-04-28 12:17:59,797 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 12:17:59,798 INFO /home/valea/.local/bin/bench worker
+2025-04-28 12:17:59,837 INFO /home/valea/.local/bin/bench watch
+2025-04-28 12:17:59,840 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 12:19:58,349 INFO /home/valea/.local/bin/bench start --port 8001
+2025-04-28 12:19:58,355 WARNING /home/valea/.local/bin/bench start --port 8001 executed with exit code 2
+2025-04-28 12:20:06,700 INFO /home/valea/.local/bin/bench start
+2025-04-28 12:20:06,904 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 12:20:06,911 INFO /home/valea/.local/bin/bench watch
+2025-04-28 12:20:06,928 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 12:20:06,928 INFO /home/valea/.local/bin/bench worker
