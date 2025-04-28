@@ -50,3 +50,8 @@
 2025-04-28 12:20:06,911 INFO /home/valea/.local/bin/bench watch
 2025-04-28 12:20:06,928 INFO /home/valea/.local/bin/bench schedule
 2025-04-28 12:20:06,928 INFO /home/valea/.local/bin/bench worker
+2025-04-28 13:29:16,008 INFO /home/valea/.local/bin/bench start
+2025-04-28 13:29:16,211 INFO /home/valea/.local/bin/bench worker
+2025-04-28 13:29:16,212 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 13:29:16,214 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 13:29:16,232 INFO /home/valea/.local/bin/bench watch
