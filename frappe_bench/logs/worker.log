@@ -38,3 +38,9 @@
 2025-04-28 12:20:07,384 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long
 2025-04-28 12:20:18,230 Worker bee8eba3b6a740799d4c25d9e0bf57d6 [PID 51935]: warm shut down requested
 2025-04-28 12:20:18,231 Unsubscribing from channel rq:pubsub:bee8eba3b6a740799d4c25d9e0bf57d6
+2025-04-28 13:29:16,649 Worker rq:worker:f8e5a800902343dd810bf3fcf5b87de1 started with PID 57622, version 2.3.2
+2025-04-28 13:29:16,649 Subscribing to channel rq:pubsub:f8e5a800902343dd810bf3fcf5b87de1
+2025-04-28 13:29:16,651 *** Listening on home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long...
+2025-04-28 13:29:16,651 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short
+2025-04-28 13:29:16,652 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default
+2025-04-28 13:29:16,652 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long
