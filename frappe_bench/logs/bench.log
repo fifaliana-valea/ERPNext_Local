@@ -11,3 +11,9 @@
 2025-04-28 10:58:26,132 LOG setting up backups
 2025-04-28 10:58:26,140 LOG backups were set up
 2025-04-28 10:58:26,140 INFO Bench frappe_bench initialized
+2025-04-28 11:57:13,133 INFO /home/valea/.local/bin/bench start
+2025-04-28 11:58:41,648 INFO /home/valea/.local/bin/bench start
+2025-04-28 11:58:41,851 INFO /home/valea/.local/bin/bench watch
+2025-04-28 11:58:41,858 INFO /home/valea/.local/bin/bench schedule
+2025-04-28 11:58:41,885 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-04-28 11:58:41,885 INFO /home/valea/.local/bin/bench worker

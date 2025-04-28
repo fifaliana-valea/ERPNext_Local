@@ -1,0 +1,8 @@
+2025-04-28 11:58:42,858 Worker rq:worker:41d4cb58436a4d36b87d05a9afdd943c started with PID 46907, version 2.3.2
+2025-04-28 11:58:42,858 Subscribing to channel rq:pubsub:41d4cb58436a4d36b87d05a9afdd943c
+2025-04-28 11:58:42,859 *** Listening on home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long...
+2025-04-28 11:58:42,859 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short
+2025-04-28 11:58:42,860 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default
+2025-04-28 11:58:42,860 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long
+2025-04-28 11:58:44,605 Worker 41d4cb58436a4d36b87d05a9afdd943c [PID 46907]: warm shut down requested
+2025-04-28 11:58:44,606 Unsubscribing from channel rq:pubsub:41d4cb58436a4d36b87d05a9afdd943c
