@@ -5,14 +5,33 @@ sudo pkill redis-server
 sudo lsof -i :11000
 sudo lsof -i :13000
 
-git add frappe_bench/apps/erpnext/
+# Se déplacer dans le dossier erpnext
+cd frappe_bench/apps/erpnext/
 
-git commit -m "Add ERPNext app to bench"
+# Vérifier les modifications
+git status
 
- git push
+# Ajouter et valider les changements
+git add .
+git commit -m "Description des modifications dans ERPNext"
 
-git add ./apps/erpnext/
+# Revenir au dossier principal
+cd ../../..
 
-git commit -m "init erpnext"
 
-git push
+# Se remettre dans le dossier frappe_bench
+cd frappe_bench
+
+# Ajouter la nouvelle référence du sous-module
+git add apps/erpnext
+
+# Valider la mise à jour
+git commit -m "Mise à jour du sous-module erpnext"
+
+# Pousser le sous-module erpnext
+cd apps/erpnext
+git push origin HEAD  # Remplacez "HEAD" par le nom de branche si nécessaire
+cd ../..
+
+# Pousser le dépôt principal
+git push origin dev
