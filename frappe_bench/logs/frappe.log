@@ -1,3 +1,9 @@
 2025-04-28 15:03:39,060 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'usr': 'Administrator', 'pwd': '********'}
+2025-04-29 11:58:10,892 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Import-Administrator","owner":"Administrator","creation":"2025-04-29 11:11:37.483345","modified":"2025-04-29 11:23:11.958674","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Import-Administrator","title":"Import","sequence_id":1,"for_user":"Administrator","parent_page":"","module":"","app":"erpnext","type":"Link","link_type":"Page","link_to":"importfile","icon":"file","indicator_color":"green","hide_custom":0,"public":0,"is_hidden":0,"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Import\\"}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-04-29T08:57:31.092Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-04-29 11:58:24,551 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Import-Administrator","owner":"Administrator","creation":"2025-04-29 11:11:37.483345","modified":"2025-04-29 11:23:11.958674","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Import-Administrator","title":"Import","sequence_id":1,"for_user":"Administrator","parent_page":"","module":"","app":"erpnext","type":"Workspace","link_type":"Page","link_to":"importfile","icon":"file","indicator_color":"green","hide_custom":0,"public":0,"is_hidden":0,"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Import\\"}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-04-29T08:57:31.092Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
