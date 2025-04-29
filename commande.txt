@@ -1,0 +1,18 @@
+ps aux | grep redis
+
+sudo pkill redis-server
+
+sudo lsof -i :11000
+sudo lsof -i :13000
+
+git add frappe_bench/apps/erpnext/
+
+git commit -m "Add ERPNext app to bench"
+
+ git push
+
+git add ./apps/erpnext/
+
+git commit -m "init erpnext"
+
+git push
