@@ -1695,3 +1695,7 @@ index creation(creation))
 TRUNCATE TABLE `tabCustomer`
 2025-04-28 14:18:17,759 WARNING database DDL Query made to DB:
 TRUNCATE TABLE `tabCustomer`
+2025-04-29 21:34:25,892 WARNING database DDL Query made to DB:
+TRUNCATE TABLE `tabCustomer`
+2025-04-29 21:34:25,901 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer` AUTO_INCREMENT = 1
