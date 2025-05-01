@@ -84,3 +84,8 @@
 2025-05-01 10:38:12,009 INFO /home/valea/.local/bin/bench schedule
 2025-05-01 12:00:01,660 INFO /home/valea/.local/bin/bench --verbose --site all backup
 2025-05-01 12:27:55,756 INFO /home/valea/.local/bin/bench --site erpnext.localhost migrate
+2025-05-01 17:00:39,612 INFO /home/valea/.local/bin/bench start
+2025-05-01 17:00:39,818 INFO /home/valea/.local/bin/bench worker
+2025-05-01 17:00:39,820 INFO /home/valea/.local/bin/bench watch
+2025-05-01 17:00:39,828 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-01 17:00:39,829 INFO /home/valea/.local/bin/bench schedule

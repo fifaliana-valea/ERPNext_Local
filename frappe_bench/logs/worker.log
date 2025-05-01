@@ -2746,3 +2746,9 @@ pymysql.err.OperationalError: (1054, "Unknown column 'tabContact.is_billing_cont
 2025-05-01 15:24:01,024 Successfully completed frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'bmp4pgo2jv'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='erpnext.localhost', user='Administrator') job in 0:00:00.150136s on worker 24ce79138b36478ab63137b62be23b01
 2025-05-01 15:24:01,024 home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default: Job OK (erpnext.localhost||scheduled_job||bmp4pgo2jv)
 2025-05-01 15:24:01,024 Result is kept for 600 seconds
+2025-05-01 17:00:40,266 Worker rq:worker:5add6b92b66443e6af2d881faec6e475 started with PID 104625, version 2.3.2
+2025-05-01 17:00:40,266 Subscribing to channel rq:pubsub:5add6b92b66443e6af2d881faec6e475
+2025-05-01 17:00:40,268 *** Listening on home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default, home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long...
+2025-05-01 17:00:40,269 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short
+2025-05-01 17:00:40,269 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default
+2025-05-01 17:00:40,270 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long
