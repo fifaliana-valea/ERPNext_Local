@@ -2752,3 +2752,5 @@ pymysql.err.OperationalError: (1054, "Unknown column 'tabContact.is_billing_cont
 2025-05-01 17:00:40,269 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:short
 2025-05-01 17:00:40,269 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:default
 2025-05-01 17:00:40,270 Cleaning registries for queue: home-valea-Documents-GitHub-ERPNext_Local-frappe_bench:long
+2025-05-01 17:02:12,515 Worker 5add6b92b66443e6af2d881faec6e475 [PID 104625]: warm shut down requested
+2025-05-01 17:02:12,517 Unsubscribing from channel rq:pubsub:5add6b92b66443e6af2d881faec6e475
