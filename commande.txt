@@ -35,3 +35,9 @@ cd ../..
 
 # Pousser le dépôt principal
 git push origin dev
+
+cd apps/erpnext
+git pull origin feat/add_data   # Assure-toi qu’il est à jour
+cd ../..
+git add apps/erpnext
+git commit -m "Mise à jour du commit du sous-module erpnext"
