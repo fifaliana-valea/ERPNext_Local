@@ -17,27 +17,3 @@ git commit -m "Description des modifications dans ERPNext"
 
 # Revenir au dossier principal
 cd ../../..
-
-
-# Se remettre dans le dossier frappe_bench
-cd frappe_bench
-
-# Ajouter la nouvelle référence du sous-module
-git add apps/erpnext
-
-# Valider la mise à jour
-git commit -m "Mise à jour du sous-module erpnext"
-
-# Pousser le sous-module erpnext
-cd apps/erpnext
-git push origin HEAD  # Remplacez "HEAD" par le nom de branche si nécessaire
-cd ../..
-
-# Pousser le dépôt principal
-git push origin dev
-
-cd apps/erpnext
-git pull origin feat/add_data   # Assure-toi qu’il est à jour
-cd ../..
-git add apps/erpnext
-git commit -m "Mise à jour du commit du sous-module erpnext"
