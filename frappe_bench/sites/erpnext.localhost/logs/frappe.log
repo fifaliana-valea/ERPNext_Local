@@ -25,3 +25,6 @@ Form Dict: {'party': 'PPN', 'party_type': 'Supplier', 'price_list': 'Standard Bu
 2025-05-01 12:29:32,224 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'doctype': 'Material Request', 'txt': '', 'filters': '{"docstatus":["!=",2],"supplier":"PPN","company":"Valea"}', 'filter_fields': '["company"]', 'page_length': '25', 'query': 'erpnext.stock.doctype.material_request.material_request.get_material_requests_based_on_supplier', 'as_dict': '1', 'cmd': 'frappe.desk.search.search_widget'}
+2025-05-05 09:25:21,734 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'cmd': 'your_custom_app.your_module.api.get_allowed_tables'}
