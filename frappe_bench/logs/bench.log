@@ -111,3 +111,37 @@
 2025-05-05 08:15:10,352 INFO /home/valea/.local/bin/bench watch
 2025-05-05 08:15:10,353 INFO /home/valea/.local/bin/bench worker
 2025-05-05 08:15:10,362 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 09:07:48,652 INFO /home/valea/.local/bin/bench start
+2025-05-05 09:07:48,911 INFO /home/valea/.local/bin/bench worker
+2025-05-05 09:07:48,916 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 09:07:48,917 INFO /home/valea/.local/bin/bench watch
+2025-05-05 09:07:48,918 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 09:10:45,404 INFO /home/valea/.local/bin/bench start
+2025-05-05 09:12:57,765 INFO /home/valea/.local/bin/bench start
+2025-05-05 09:12:57,996 INFO /home/valea/.local/bin/bench watch
+2025-05-05 09:12:58,000 INFO /home/valea/.local/bin/bench worker
+2025-05-05 09:12:58,013 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 09:12:58,027 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:23:00,451 INFO /home/valea/.local/bin/bench new-app custom_reset
+2025-05-05 17:23:00,455 LOG creating new app custom_reset
+2025-05-05 17:24:25,989 LOG Installing custom_reset
+2025-05-05 17:24:25,989 DEBUG cd /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench && /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/apps/custom_reset 
+2025-05-05 17:24:29,770 DEBUG bench build --app custom_reset
+2025-05-05 17:24:29,882 INFO /home/valea/.local/bin/bench build --app custom_reset
+2025-05-05 17:25:12,741 INFO /home/valea/.local/bin/bench --site erpnext.localhost install-app custom_reset
+2025-05-05 17:25:51,799 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:25:52,008 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:25:52,009 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 17:25:52,016 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:25:52,019 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:46:21,289 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:46:21,504 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 17:46:21,504 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:46:21,512 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:46:21,531 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:49:06,579 INFO /home/valea/.local/bin/bench build
+2025-05-05 17:49:27,312 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:49:27,517 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:49:27,525 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:49:27,542 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:49:27,552 INFO /home/valea/.local/bin/bench serve --port 8000
