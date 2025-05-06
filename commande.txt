@@ -25,3 +25,55 @@ git commit -m "Mise a jour du fonction post_login"
 git push
 
 Api key: 90de581a79d3fe0
+
+for ref_request_quotation, data in grouped_items.items():
+    try:
+        mr_doc = frappe.get_doc("Material Request", data["material_request_name"])
+
+        # Créer le Request for Quotation
+        rfq_doc = frappe.get_doc({
+            "doctype": "Request for Quotation",
+            "message_for_supplier": "Please, supply these items",
+            "items": [],
+            "suppliers": [{"supplier": supp["supplier"]} for supp in data["suppliers"]],
+        })
+
+        for item in mr_doc.items:
+            rfq_doc.append("items", {
+                "item_code": item.item_code,
+                "qty": item.qty,
+                "warehouse": item.warehouse,
+                "uom": "Nos",
+                "conversion_factor": 1
+            })
+
+        rfq_doc.insert()
+        rfq_doc.submit()
+
+        # Créer les Supplier Quotations pour chaque fournisseur
+        for supplier_data in data["suppliers"]:
+            supplier = supplier_data["supplier"]
+            rate = supplier_data["rate"]
+
+            sq_doc = frappe.get_doc({
+                "doctype": "Supplier Quotation",
+                "supplier": supplier,
+                "items": [],
+                "currency": "EUR",
+                "buying_price_list": "Standard Buying",
+                "docstatus": 0
+            })
+
+            for item in mr_doc.items:
+                sq_doc.append("items", {
+                    "item_code": item.item_code,
+                    "qty": item.qty,
+                    "warehouse": item.warehouse,
+                    "uom": "Nos",
+                    "conversion_factor": 1,
+                    "rate": rate,
+                    "request_for_quotation": rfq_doc.name 
+                })
+
+            sq_doc.insert()
+            # sq_doc.submit()

@@ -122,3 +122,58 @@
 2025-05-05 09:12:58,000 INFO /home/valea/.local/bin/bench worker
 2025-05-05 09:12:58,013 INFO /home/valea/.local/bin/bench serve --port 8000
 2025-05-05 09:12:58,027 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:23:00,451 INFO /home/valea/.local/bin/bench new-app custom_reset
+2025-05-05 17:23:00,455 LOG creating new app custom_reset
+2025-05-05 17:24:25,989 LOG Installing custom_reset
+2025-05-05 17:24:25,989 DEBUG cd /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench && /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/env/bin/python -m pip install --quiet --upgrade -e /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/apps/custom_reset 
+2025-05-05 17:24:29,770 DEBUG bench build --app custom_reset
+2025-05-05 17:24:29,882 INFO /home/valea/.local/bin/bench build --app custom_reset
+2025-05-05 17:25:12,741 INFO /home/valea/.local/bin/bench --site erpnext.localhost install-app custom_reset
+2025-05-05 17:25:51,799 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:25:52,008 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:25:52,009 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 17:25:52,016 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:25:52,019 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:46:21,289 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:46:21,504 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-05 17:46:21,504 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:46:21,512 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:46:21,531 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:49:06,579 INFO /home/valea/.local/bin/bench build
+2025-05-05 17:49:27,312 INFO /home/valea/.local/bin/bench start
+2025-05-05 17:49:27,517 INFO /home/valea/.local/bin/bench watch
+2025-05-05 17:49:27,525 INFO /home/valea/.local/bin/bench schedule
+2025-05-05 17:49:27,542 INFO /home/valea/.local/bin/bench worker
+2025-05-05 17:49:27,552 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 13:14:32,873 INFO /home/valea/.local/bin/bench start
+2025-05-06 13:14:33,119 INFO /home/valea/.local/bin/bench worker
+2025-05-06 13:14:33,125 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 13:14:33,160 INFO /home/valea/.local/bin/bench watch
+2025-05-06 13:14:33,165 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 13:41:29,950 INFO /home/valea/.local/bin/bench build
+2025-05-06 13:41:52,245 INFO /home/valea/.local/bin/bench start
+2025-05-06 13:41:52,455 INFO /home/valea/.local/bin/bench worker
+2025-05-06 13:41:52,456 INFO /home/valea/.local/bin/bench watch
+2025-05-06 13:41:52,467 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 13:41:52,473 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 16:07:33,152 INFO /home/valea/.local/bin/bench start
+2025-05-06 16:07:33,364 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 16:07:33,369 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 16:07:33,382 INFO /home/valea/.local/bin/bench worker
+2025-05-06 16:07:33,382 INFO /home/valea/.local/bin/bench watch
+2025-05-06 16:21:29,249 INFO /home/valea/.local/bin/bench start
+2025-05-06 16:21:29,460 INFO /home/valea/.local/bin/bench worker
+2025-05-06 16:21:29,460 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 16:21:29,461 INFO /home/valea/.local/bin/bench watch
+2025-05-06 16:21:29,495 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 17:12:52,770 INFO /home/valea/.local/bin/bench start
+2025-05-06 17:12:53,027 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 17:12:53,033 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 17:12:53,040 INFO /home/valea/.local/bin/bench worker
+2025-05-06 17:12:53,047 INFO /home/valea/.local/bin/bench watch
+2025-05-06 17:57:28,785 INFO /home/valea/.local/bin/bench start
+2025-05-06 17:57:28,993 INFO /home/valea/.local/bin/bench serve --port 8000
+2025-05-06 17:57:29,008 INFO /home/valea/.local/bin/bench watch
+2025-05-06 17:57:29,013 INFO /home/valea/.local/bin/bench worker
+2025-05-06 17:57:29,014 INFO /home/valea/.local/bin/bench schedule
+2025-05-06 18:00:01,196 INFO /home/valea/.local/bin/bench --verbose --site all backup
