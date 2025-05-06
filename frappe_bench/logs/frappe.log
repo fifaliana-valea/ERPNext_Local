@@ -70,3 +70,30 @@ Form Dict: {'supplierB64': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFk
 2025-05-06 15:38:27,707 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'supplierB64': 'c3VwcGxpZXJfbmFtZSxjb3VudHJ5LHR5cGUNClNhbmlmZXIsTWFkYWdhc2NhcixDb21wYW55DQpFeHhvbixVc2EsQ29tcGFueQ0KRWxlY3Ryb3BsdXMsTWFkYWdhc2NhcixDb21wYW55', 'materialRequestB64': 'ZGF0ZSxpdGVtX25hbWUsaXRlbV9ncm91cGUscmVxdWlyZWRfYnkscXVhbnRpdHkscHVycG9zZSx0YXJnZXRfd2FyZWhvdXNlLHJlZg0KMDIvMDUvMjAyNSxib3Vsb24scGllY2UsMDIvMDYvMjAyNSwxMyxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDENCjAyLzA1LzIwMjUsY2ltZW50LGNvbnNvbW1hYmxlLDAyLzA2LzIwMjUsNSxQdXJjaGFzZSxBbGwgV2FyZWhvdXNlLDI=', 'requestForQuotationB64': 'cmVmX3JlcXVlc3RfcXVvdGF0aW9uLHN1cHBsaWVyDQoxLFNhbmlmZXINCjEsRXh4b24NCjIsU2FuaWZlcg==', 'trad': 'ewogICAgImNvbnNvbW1hYmxlIjogIkNvbnN1bWFibGUiLAogICAgInBpZWNlIjogInBpZWNlIiwKICAgICJwcm9kdWl0IjogIlByb2R1Y3RzIiwKICAgICJhY2hhdCI6ICJwdXJjaGFzZSIsCiAgICAidXNhIjogIlVuaXRlZCBTdGF0ZXMiLAogICAgIk1hZGFnYXNjYXIiOiAiTWFkYWdzY2FyIgp9Cg==', 'cmd': 'erpnext.importation.controller.Import_controller.import_data'}
+2025-05-06 18:08:17,986 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00009', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 18:24:40,213 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00010', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 18:27:26,251 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00011', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 18:30:00,128 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00012', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 18:30:14,342 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'docstatus': 1, 'payment_type': 'Pay', 'party_type': 'Supplier', 'party': 'Exxon', 'company': 'Valea', 'paid_amount': 10800, 'received_amount': 10800, 'source_exchange_rate': 1.0, 'paid_from': 'Cash - V', 'paid_from_account_currency': 'BAM', 'paid_to': 'Creditors - V', 'paid_to_account_currency': 'BAM', 'mode_of_payment': 'Cash', 'reference_no': 'ESP-20250506-3CMBQE', 'reference_date': '2025-05-06', 'references': [{'reference_doctype': 'Purchase Invoice', 'reference_name': 'ACC-PINV-2025-00014', 'total_amount': 1200.0, 'outstanding_amount': 1080.0, 'allocated_amount': 10800}]}
+2025-05-06 18:30:19,393 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00013', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 18:46:16,556 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'docstatus': 1, 'payment_type': 'Pay', 'party_type': 'Supplier', 'party': 'Sanifer', 'company': 'Valea', 'paid_amount': 1422000.0, 'received_amount': 1422000.0, 'source_exchange_rate': 1.0, 'paid_from': 'Cash - V', 'paid_from_account_currency': 'BAM', 'paid_to': 'Creditors - V', 'paid_to_account_currency': 'BAM', 'mode_of_payment': 'Cash', 'reference_no': 'ESP-20250506-6EJP26', 'reference_date': '2025-05-06', 'references': [{'reference_doctype': 'Purchase Invoice', 'reference_name': 'ACC-PINV-2025-00015', 'total_amount': 152200.0, 'outstanding_amount': 152200.0, 'allocated_amount': 1422000.0}]}
+2025-05-06 18:46:24,687 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00014', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
+2025-05-06 19:53:58,315 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Payment Entry', 'name': 'ACC-PAY-2025-00015', 'action': 'Submit', 'cmd': 'frappe.model.workflow.apply_workflow'}
