@@ -3,5 +3,6 @@
  "db_password": "dtRrgXjmD6b2Lrmd",
  "db_type": "mariadb",
  "db_user": "_02b803823511555e",
- "developer_mode": 1
+ "developer_mode": 1,
+ "encryption_key": "Tr5Ez1VBF_KjlYUi8t512Jt9WlbHXZLC_b9-q65UW4M="
 }

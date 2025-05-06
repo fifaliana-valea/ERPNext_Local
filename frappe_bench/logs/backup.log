@@ -14,3 +14,15 @@ Backup Summary for erpnext.localhost at 2025-05-01 12:00:03.325871
 Config  : /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250501_120002-erpnext_localhost-site_config_backup.json 149.0B
 Database: /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250501_120002-erpnext_localhost-database.sql.gz 817.4KiB
 Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_02b803823511555e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _02b803823511555e | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250506_000002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-06 00:00:03.840650
+Config  : /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250506_000002-erpnext_localhost-site_config_backup.json 216.0B
+Database: /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250506_000002-erpnext_localhost-database.sql.gz 926.5KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_02b803823511555e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _02b803823511555e | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250506_180001-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-06 18:00:02.734695
+Config  : /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250506_180001-erpnext_localhost-site_config_backup.json 216.0B
+Database: /home/valea/Documents/GitHub/ERPNext_Local/frappe_bench/sites/erpnext.localhost/private/backups/20250506_180001-erpnext_localhost-database.sql.gz 942.3KiB
+Backup for Site erpnext.localhost has been successfully completed
